@@ -3,9 +3,9 @@
   "minversion": 202000400000,
   "info": {
     "name": "ShadowsAPIs",
-    "version": "1.0.3.4",
-    "author": "Miss Lexy Shadows",
-	"credits": "SirStig for giving me the drive to get this done & Goldorion for is well documented source for me to learn from.",
+    "version": "1.0.3.5",
+    "author": "NavaRayUK",
+	"credits": "Miss LexyShadows for the first creation of this plugin.",
     "description": "Adds API's to MCreator.",
     "pluginPageID": 84967
   }

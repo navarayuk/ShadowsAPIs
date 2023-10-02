@@ -62,4 +62,48 @@ forge-1.19.2:
       }
   update_files:
     - ~ 
+forge-1.19.4:
+  gradle: |
+      repositories {
+        maven {
+          // location of the maven that hosts JEI files
+          name = "Progwml6 maven"
+          url = "https://dvs1.progwml6.com/files/maven/"
+        }    
+        maven {
+          // location of a maven mirror for JEI files, as a fallback
+          name = "ModMaven"
+          url = "https://modmaven.dev"
+        }   
+      }
+      
+      dependencies {
+        compileOnly fg.deobf("mezz.jei:jei-1.19.4-common-api:13.1.0.16")
+        compileOnly fg.deobf("mezz.jei:jei-1.19.4-forge-api:13.1.0.16")
+        runtimeOnly fg.deobf("mezz.jei:jei-1.19.4-forge:13.1.0.16")
+      }
+  update_files:
+    - ~ 
+forge-1.20.1:
+  gradle: |
+      repositories {
+        maven {
+          // location of the maven that hosts JEI files
+          name = "Progwml6 maven"
+          url = "https://dvs1.progwml6.com/files/maven/"
+        }    
+        maven {
+          // location of a maven mirror for JEI files, as a fallback
+          name = "ModMaven"
+          url = "https://modmaven.dev"
+        }   
+      }
+      
+      dependencies {
+        compileOnly fg.deobf("mezz.jei:jei-1.19.4-common-api:15.2.0.27")
+        compileOnly fg.deobf("mezz.jei:jei-1.19.4-forge-api:15.2.0.27")
+        runtimeOnly fg.deobf("mezz.jei:jei-1.19.4-forge:15.2.0.27")
+      }
+  update_files:
+    - ~ 
 name: "Just enough Items"

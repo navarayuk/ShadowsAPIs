@@ -62,4 +62,36 @@ forge-1.18.2:
     }
   update_files:
     - ~
+forge-1.19.4:
+  gradle: |
+    repositories {
+        maven {
+            url "https://www.cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    dependencies {
+       compileOnly fg.deobf("curse.maven:cloth-config-forge-348521:4633433")
+       runtimeOnly fg.deobf("curse.maven:cloth-config-forge-348521:4633433")
+    }
+  update_files:
+    - ~
+forge-1.20.1:
+  gradle: |
+    repositories {
+        maven {
+            url "https://www.cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    dependencies {
+       compileOnly fg.deobf("curse.maven:cloth-config-forge-348521:4633444")
+       runtimeOnly fg.deobf("curse.maven:cloth-config-forge-348521:4633444")
+    }
+  update_files:
+    - ~
 name: "Cloth Config"

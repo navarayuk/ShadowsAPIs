@@ -64,4 +64,48 @@ forge-1.19.2:
       }
   update_files:
     - ~  
+forge-1.19.4:
+  gradle: |
+      minecraft {
+        runs {
+            client {
+                property 'mixin.env.remapRefMap', 'true'
+                property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            }
+        }
+      }
+      repositories {
+        maven {
+          url = "https://maven.blamejared.com"
+        }
+      }
+      
+      dependencies {
+        compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.19.4-79.1:api")
+        runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.19.4-79.1")
+      }
+  update_files:
+    - ~  
+forge-1.20.1:
+  gradle: |
+      minecraft {
+        runs {
+            client {
+                property 'mixin.env.remapRefMap', 'true'
+                property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            }
+        }
+      }
+      repositories {
+        maven {
+          url = "https://maven.blamejared.com"
+        }
+      }
+      
+      dependencies {
+        compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-81:api")
+        runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-81")
+      }
+  update_files:
+    - ~  
 name: "Patchouli"
