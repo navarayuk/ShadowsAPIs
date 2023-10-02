@@ -15,7 +15,6 @@ This plugin will not work with other plugins that add
 - Cealus ([GitHub](https://github.com/TheIllusiveC4/Caelus))
 - Cloth Config ([Docs](https://shedaniel.gitbook.io/cloth-config/)) 
 - CTM ([Doc](https://github.com/Chisel-Team/CTMLib/wiki/Standard-CTM-Format))
-- Curios API ([Docs](https://github.com/TheIllusiveC4/Curios))
 - Guidebook ([Wiki](https://github.com/gigaherz/Guidebook/wiki))
 - Jade ([Doc](https://jademc.readthedocs.io/en/latest/))
 - JEI ([Wiki](https://github.com/mezz/JustEnoughItems/wiki))
@@ -24,7 +23,7 @@ This plugin will not work with other plugins that add
 
 if you fork this plugin change or remove these lines to match your vrsion 
 ```json
-"updateJSONURL": "https://raw.githubusercontent.com/LexShadow/ShadowsAPIs/main/update.json",
+"updateJSONURL": "https://raw.githubusercontent.com/navarayuk/ShadowsAPIs/main/update.json",
 "pluginPageID": 84967
 ```
 as this is related to my version of the plugin
