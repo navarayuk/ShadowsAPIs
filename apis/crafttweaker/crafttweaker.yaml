@@ -46,4 +46,36 @@ forge-1.19.2:
       }
   update_files:
     - ~
+forge-1.19.4:
+  gradle: |
+      repositories {
+        maven {
+          // location of the maven that hosts JEI files
+          name = "BlameJared Maven"
+          url = "https://maven.blamejared.com"
+        }    
+      }
+      
+      dependencies {
+        compileOnly fg.deobf('com.blamejared.crafttweaker:CraftTweaker-forge-1.19.4:12.0.2')
+        runtimeOnly fg.deobf('com.blamejared.crafttweaker:CraftTweaker-forge-1.19.4:12.0.2')
+      }
+  update_files:
+    - ~
+forge-1.20.1:
+  gradle: |
+      repositories {
+        maven {
+          // location of the maven that hosts JEI files
+          name = "BlameJared Maven"
+          url = "https://maven.blamejared.com"
+        }    
+      }
+      
+      dependencies {
+        compileOnly fg.deobf('com.blamejared.crafttweaker:CraftTweaker-forge-1.20.1:14.0.17')
+        runtimeOnly fg.deobf('com.blamejared.crafttweaker:CraftTweaker-forge-1.20.1:14.0.17')
+      }
+  update_files:
+    - ~
 name: "CraftTweaker"
