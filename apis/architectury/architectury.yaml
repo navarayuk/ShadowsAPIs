@@ -30,7 +30,7 @@ forge-1.18.2:
     }
   update_files:
     - ~
-forge-1.19:
+forge-1.19.2:
   gradle: |
     repositories {
         maven {
@@ -41,8 +41,40 @@ forge-1.19:
         }
     }
     dependencies {
-       compileOnly fg.deobf("curse.maven:architectury-forge-419699:4104616")
-       runtimeOnly fg.deobf("curse.maven:architectury-forge-419699:4104616")
+       compileOnly fg.deobf("curse.maven:architectury-forge-419699:4555749")
+       runtimeOnly fg.deobf("curse.maven:architectury-forge-419699:4555749")
+    }
+  update_files:
+    - ~
+forge-1.19.4:
+  gradle: |
+    repositories {
+        maven {
+            url "https://www.cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    dependencies {
+       compileOnly fg.deobf("curse.maven:architectury-forge-419699:4633041")
+       runtimeOnly fg.deobf("curse.maven:architectury-forge-419699:4633041")
+    }
+  update_files:
+    - ~
+forge-1.20.1:
+  gradle: |
+    repositories {
+        maven {
+            url "https://www.cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    dependencies {
+       compileOnly fg.deobf("curse.maven:architectury-forge-419699:4663010")
+       runtimeOnly fg.deobf("curse.maven:architectury-forge-419699:4663010")
     }
   update_files:
     - ~

@@ -31,4 +31,20 @@ forge-1.18.2:
     }
   update_files:
     - ~
+forge-1.19.2:
+  gradle: |
+    repositories {
+        maven {
+            url "https://www.cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    dependencies {
+       compileOnly fg.deobf("curse.maven:ctm-267602:4393695")
+       runtimeOnly fg.deobf("curse.maven:ctm-267602:4393695")
+    }
+  update_files:
+    - ~
 name: "ctm"

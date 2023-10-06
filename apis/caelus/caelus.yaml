@@ -124,4 +124,25 @@ forge-1.19.4:
     }
   update_files:
     - ~
+forge-1.20.1:
+  gradle: |
+    minecraft {
+        runs {
+            client {
+                property 'mixin.env.remapRefMap', 'true'
+                property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            }
+        }
+    }
+    repositories { 
+        maven { 
+            url = "https://maven.theillusivec4.top/" 
+        } 
+    }
+    dependencies { 
+        compileOnly fg.deobf("top.theillusivec4.caelus:caelus-forge:3.1.0+1.20:api") 
+        runtimeOnly fg.deobf("top.theillusivec4.caelus:caelus-forge:3.1.0+1.20")
+    }
+  update_files:
+    - ~
 name: "caelus"

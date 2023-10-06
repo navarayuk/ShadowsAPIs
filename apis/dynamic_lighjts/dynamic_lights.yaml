@@ -1,0 +1,33 @@
+forge-1.19.4:
+  gradle: |
+    repositories {
+        maven {
+            url "https://www.cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    dependencies {
+       compileOnly fg.deobf("curse.maven:dynamic-lights-227874:4721523")
+       runtimeOnly fg.deobf("curse.maven:dynamic-lights-227874:4721523")
+    }
+  update_files:
+    - ~
+forge-1.20.1:
+  gradle: |
+    repositories {
+        maven {
+            url "https://www.cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    dependencies {
+       compileOnly fg.deobf("curse.maven:dynamic-lights-227874:4721525")
+       runtimeOnly fg.deobf("curse.maven:dynamic-lights-227874:4721525")
+    }
+  update_files:
+    - ~
+name: "Dynamic Lights"
