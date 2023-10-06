@@ -81,8 +81,8 @@ forge-1.19.4:
       }
       
       dependencies {
-        compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.19.4-79.1:api")
-        runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.19.4-79.1")
+        compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.19.4-79.1-FORGE:api")
+        runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.19.4-79.1-FORGE")
       }
   update_files:
     - ~  
@@ -103,8 +103,8 @@ forge-1.20.1:
       }
       
       dependencies {
-        compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-81:api")
-        runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-81")
+        compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-81-FORGE:api")
+        runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.20.1-81-FORGE")
       }
   update_files:
     - ~  
