@@ -22,6 +22,7 @@ This plugin will not work with other plugins that add
 - FramedBlocks ([CurseForge](https://www.curseforge.com/minecraft/mc-mods/framedblocks))
 - Terra Blender ([Docs](https://github.com/Glitchfiend/TerraBlender/wiki)), ([CurseForge](https://www.curseforge.com/minecraft/mc-mods/terrablender))
 - Dynamic Lights ([CurseForge](https://www.curseforge.com/minecraft/mc-mods/dynamic-lights))
+- Kotlin ([Docs](https://github.com/thedarkcolour/KotlinForForge), [CurseForge](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge))
 
 
 if you fork this plugin change or remove these lines to match your vrsion 
