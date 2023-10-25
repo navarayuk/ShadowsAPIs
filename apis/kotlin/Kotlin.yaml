@@ -1,0 +1,73 @@
+forge-1.19.4:
+  gradle: |
+    minecraft {
+        runs {
+            client {
+                property 'mixin.env.remapRefMap', 'true'
+                property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            }
+        }
+    }  
+    repositories {
+        maven {
+            url "https://www.cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    dependencies {
+       compileOnly fg.deobf("curse.maven:jade-351264:4778283")
+       runtimeOnly fg.deobf("curse.maven:jade-351264:4778283")
+    }
+  update_files:
+    - ~
+forge-1.20.1:
+  gradle: |
+    minecraft {
+        runs {
+            client {
+                property 'mixin.env.remapRefMap', 'true'
+                property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            }
+        }
+    }  
+    repositories {
+        maven {
+            url "https://www.cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    dependencies {
+       compileOnly fg.deobf("curse.maven:jade-351264:4778283")
+       runtimeOnly fg.deobf("curse.maven:jade-351264:4778283")
+    }
+  update_files:
+    - ~
+forge-1.20.2:
+  gradle: |
+    minecraft {
+        runs {
+            client {
+                property 'mixin.env.remapRefMap', 'true'
+                property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            }
+        }
+    }  
+    repositories {
+        maven {
+            url "https://www.cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    dependencies {
+       compileOnly fg.deobf("curse.maven:jade-351264:4778283")
+       runtimeOnly fg.deobf("curse.maven:jade-351264:4778283")
+    }
+  update_files:
+    - ~
+name: "kotin"
