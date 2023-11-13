@@ -23,7 +23,7 @@ This plugin will not work with other plugins that add
 - Terra Blender ([Docs](https://github.com/Glitchfiend/TerraBlender/wiki)), ([CurseForge](https://www.curseforge.com/minecraft/mc-mods/terrablender))
 - Dynamic Lights ([CurseForge](https://www.curseforge.com/minecraft/mc-mods/dynamic-lights))
 - Kotlin ([Docs](https://github.com/thedarkcolour/KotlinForForge), [CurseForge](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge))
-
+- MCEF ([GitHub](https://github.com/CinemaMod/mcef), [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mcef)) 
 
 if you fork this plugin change or remove these lines to match your vrsion 
 ```json
