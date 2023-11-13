@@ -1,0 +1,27 @@
+forge-1.19.2:
+  gradle: |
+    repositories {
+        maven {
+            url = uri('https://mcef-download.cinemamod.com/repositories/releases')
+        }
+    }
+    dependencies {
+       compileOnly fg.deobf("com.cinemamod:mcef:1.2.5-1.19.2")
+       runtimeOnly fg.deobf("com.cinemamod:mcef:1.2.5-1.19.2")
+    }
+  update_files:
+    - ~
+forge-1.20.1:
+  gradle: |
+    repositories {
+        maven {
+            url = uri('https://mcef-download.cinemamod.com/repositories/releases')
+        }
+    }
+    dependencies {
+       compileOnly fg.deobf("com.cinemamod:mcef:2.1.1-1.20.1")
+       runtimeOnly fg.deobf("com.cinemamod:mcef:2.1.1-1.20.1")
+    }
+  update_files:
+    - ~
+name: "mcef"
